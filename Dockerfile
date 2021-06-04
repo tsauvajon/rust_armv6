@@ -1,4 +1,4 @@
-FROM rust:1.32.0-slim-stretch
+FROM rust:1.52.0-slim-buster
 
 # Prevent any error messages about there not being a terminal
 ENV DEBIAN_FRONTEND noninteractive
